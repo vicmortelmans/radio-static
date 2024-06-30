@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="net.credomobiel.katholiekeradio" version="4.0.3" xmlns="http://www.w3.org/ns/widgets">
+    <name>Katholieke Radio</name>
+    <description>
+        Luister naar katholieke radiostations.
+    </description>
+    <author email="info@gelovenleren.net" href="https://gelovenleren.net">
+        Credomobiel
+    </author>
+    <platform name="android" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <icon src="favicon.png" />
+    <icon src="favicon36.png" platform="android" qualifier="ldpi" />
+    <icon src="favicon.png" platform="android" qualifier="mdpi" />
+    <icon src="favicon72.png" platform="android" qualifier="hdpi" />
+    <icon src="favicon96.png" platform="android" qualifier="xhdpi" />
+    <plugin name="org.apache.cordova.inappbrowser" source="pgb" />
+    <plugin name="cordova-plugin-whitelist" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <access origin="*" />
+</widget>
